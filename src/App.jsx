@@ -334,10 +334,10 @@ return (
               <Linkedin className="w-4 h-4" />
             </a>
             <a href="https://t.me/syncrate" target="_blank" rel="noopener noreferrer" className="w-8 h-8 border border-white/10 flex items-center justify-center hover:border-[#C1E328] hover:text-[#C1E328] transition-all">
-              <Telegram className="w-4 h-4" />
+              <Send className="w-4 h-4" />
             </a>
             <a href="https://discord.gg/Y449tBJKbv" target="_blank" rel="noopener noreferrer" className="w-8 h-8 border border-white/10 flex items-center justify-center hover:border-[#C1E328] hover:text-[#C1E328] transition-all">
-              <Discord className="w-4 h-4" />
+              <MessageCircle className="w-4 h-4" />
             </a>
           </div>
         </div>
