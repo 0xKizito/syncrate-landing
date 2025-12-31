@@ -71,8 +71,8 @@ return (
         <a href="#positioning" className="text-xs text-slate-400 hover:text-[#C1E328] transition-colors uppercase tracking-wider">Developers</a>
         <a href="#workflow" className="text-xs text-slate-400 hover:text-[#C1E328] transition-colors uppercase tracking-wider">Workflow</a>
         <a href="#articles" className="text-xs text-slate-400 hover:text-[#C1E328] transition-colors uppercase tracking-wider">Blog</a>
-        <a href="https://tally.so/r/Nplpe0" target="_blank" rel="noopener noreferrer" className="px-5 py-2 border border-white/20 text-xs hover:border-[#C1E328] hover:text-[#C1E328] transition-all uppercase group tracking-wider">
-          Apply for Access
+        <a href="mailto:contact@syncrate.org" target="_blank" rel="noopener noreferrer" className="px-5 py-2 border border-white/20 text-xs hover:border-[#C1E328] hover:text-[#C1E328] transition-all uppercase group tracking-wider">
+          Contact Us
           <ArrowUpRight className="inline w-3 h-3 ml-1 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
         </a>
       </div>
@@ -88,15 +88,15 @@ return (
           <a href="#positioning" className="block text-slate-400 hover:text-white">Positioning</a>
           <a href="#workflow" className="block text-slate-400 hover:text-white">Workflow</a>
           <a href="#articles" className="block text-slate-400 hover:text-white">Insights</a>
-          <a href="https://tally.so/r/Nplpe0" target="_blank" rel="noopener noreferrer" className="block w-full px-5 py-2 border border-white/20 hover:border-[#C1E328] hover:text-[#C1E328] transition-all text-center">
-            Apply for Access
+          <a href="https://testnet.syncrate.org" target="_blank" rel="noopener noreferrer" className="block w-full px-5 py-2 border border-white/20 hover:border-[#C1E328] hover:text-[#C1E328] transition-all text-center">
+            Join Testnet
           </a>
         </div>
       </div>
     )}
   </nav>
 
-  <section className="relative min-h-screen flex items-center justify-center pt-20">
+  <section className="relative py-32 flex items-center justify-center pt-20">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-20">
       <div className="animate-fade-in-up">
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold mb-6 md:mb-8 leading-[0.95] tracking-tight">
@@ -157,7 +157,7 @@ return (
     </div>
   </section>
 
-  <section id="positioning" className="relative min-h-screen flex items-center border-t border-white/5">
+  <section id="positioning" className="relative py-32 flex items-center border-t border-white/5">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32">
       <div className="grid lg:grid-cols-2 gap-16 items-center">
         <div className="animate-fade-in-up">
@@ -201,7 +201,7 @@ return (
     </div>
   </section>
 
-  <section id="workflow" className="relative min-h-screen flex items-center border-t border-white/5">
+  <section id="workflow" className="relative py-32 flex items-center border-t border-white/5">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32">
       <h2 className="text-4xl lg:text-5xl font-bold mb-20">The Syncrate Workflow.</h2>
 
@@ -260,7 +260,7 @@ return (
     </div>
   </section>
 
-  <section id="articles" className="relative min-h-screen flex items-center border-t border-white/5">
+  <section id="articles" className="relative py-32 flex items-center border-t border-white/5">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32">
       <h2 className="text-4xl lg:text-5xl font-bold mb-20">Articles & Insights.</h2>
       
