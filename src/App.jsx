@@ -145,10 +145,10 @@ return (
             ].map((chain, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-12 h-12 border border-white/10 bg-white/50 backdrop-blur-sm flex flex-col items-center justify-center hover:border-[#62721A]/50 transition-all"
+                className="flex-shrink-0 w-12 h-12 border border-white/10 rounded-full flex flex-col items-center justify-center hover:border-[#62721A]/50 transition-all"
               >
                 <img src={chain.logo} alt={chain.name} className="w-8 h-8 mb-2 object-contain" />
-                <div className="text-[10px] text-slate-500 uppercase tracking-wider">{chain.name}</div>
+                <div className="text-[10px] text-cyan-400 uppercase tracking-wider mt-2">{chain.name}</div>
               </div>
             ))}
           </div>
