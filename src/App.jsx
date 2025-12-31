@@ -96,7 +96,7 @@ return (
     )}
   </nav>
 
-  <section className="relative py-16 md:py-24 lg:py-32 flex items-center justify-center">
+  <section className="relative py-12 md:py-20 lg:py-32 flex flex-col items-center justify-start">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-20">
       <div className="animate-fade-in-up">
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold mb-6 md:mb-8 leading-[0.95] tracking-tight">
@@ -157,7 +157,7 @@ return (
     </div>
   </section>
 
-  <section id="positioning" className="relative py-16 md:py-24 lg:py-32 flex items-center border-t border-white/5">
+  <section id="positioning" className="relative py-12 md:py-20 lg:py-32 border-t border-white/5">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32">
       <div className="grid lg:grid-cols-2 gap-16 items-center">
         <div className="animate-fade-in-up">
@@ -201,7 +201,7 @@ return (
     </div>
   </section>
 
-  <section id="workflow" className="relative py-16 md:py-24 lg:py-32 flex items-center border-t border-white/5">
+  <section id="workflow" className="relative py-12 md:py-20 lg:py-32 border-t border-white/5">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32">
       <h2 className="text-4xl lg:text-5xl font-bold mb-20">The Syncrate Workflow.</h2>
 
@@ -260,7 +260,7 @@ return (
     </div>
   </section>
 
-  <section id="articles" className="relative py-16 md:py-24 lg:py-32 flex items-center border-t border-white/5">
+  <section id="articles" className="relative py-12 md:py-20 lg:py-32 border-t border-white/5">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32">
       <h2 className="text-4xl lg:text-5xl font-bold mb-20">Articles & Insights.</h2>
       
@@ -325,7 +325,7 @@ return (
         </div>
 
         <div>
-          <h4 className="text-xs uppercase mb-4 text-slate-400 tracking-wider">Connect</h4>
+          <h4 className="text-xs uppercase mb-4 text-slate-400 tracking-wider">Get In Touch</h4>
           <div className="flex space-x-4">
             <a href="https://x.com/syncratelabs" target="_blank" rel="noopener noreferrer" className="w-8 h-8 border border-white/10 flex items-center justify-center hover:border-[#C1E328] hover:text-[#C1E328] transition-all">
               <Twitter className="w-4 h-4" />
@@ -334,10 +334,10 @@ return (
               <Linkedin className="w-4 h-4" />
             </a>
             <a href="https://t.me/syncrate" target="_blank" rel="noopener noreferrer" className="w-8 h-8 border border-white/10 flex items-center justify-center hover:border-[#C1E328] hover:text-[#C1E328] transition-all">
-              <Send className="w-4 h-4" />
+              <Telegram className="w-4 h-4" />
             </a>
             <a href="https://discord.gg/Y449tBJKbv" target="_blank" rel="noopener noreferrer" className="w-8 h-8 border border-white/10 flex items-center justify-center hover:border-[#C1E328] hover:text-[#C1E328] transition-all">
-              <MessageCircle className="w-4 h-4" />
+              <Discord className="w-4 h-4" />
             </a>
           </div>
         </div>
