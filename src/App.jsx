@@ -128,14 +128,14 @@ return (
               { name: 'Ethereum', logo: 'https://cryptologos.cc/logos/ethereum-eth-logo.png' },
               { name: 'Arbitrum', logo: 'https://cryptologos.cc/logos/arbitrum-arb-logo.png' },
               { name: 'Polygon', logo: 'https://cryptologos.cc/logos/polygon-matic-logo.svg' },
-              { name: 'Aptos', logo: 'aptos-apt-logo.png' },
+              { name: 'Aptos', logo: 'https://cryptologos.cc/logos/aptos-apt-logo.png' },
               { name: 'Optimism', logo: 'https://cryptologos.cc/logos/optimism-ethereum-op-logo.png' },
               { name: 'Avalanche', logo: 'https://cryptologos.cc/logos/avalanche-avax-logo.png' },
               { name: 'BSC', logo: 'https://cryptologos.cc/logos/bnb-bnb-logo.png' },
               { name: 'Solana', logo: 'https://cryptologos.cc/logos/solana-sol-logo.png' },
               // Duplicate set for seamless loop
               { name: 'Mantra', logo: 'https://cryptologos.cc/logos/mantra-om-logo.png' },
-              { name: 'Ondo', logo: 'https://cryptologos.cc/logos/ondo-finance-ondo-logo.png' },
+              { name: 'Aptos', logo: 'https://cryptologos.cc/logos/aptos-apt-logo.png' },
               { name: 'Polygon', logo: 'https://cryptologos.cc/logos/polygon-matic-logo.png' },
               { name: 'Base', logo: 'https://avatars.githubusercontent.com/u/108554348' },
               { name: 'Optimism', logo: 'https://cryptologos.cc/logos/optimism-ethereum-op-logo.png' },
@@ -145,7 +145,7 @@ return (
             ].map((chain, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-12 h-12 border border-white/10 rounded-full flex flex-col items-center justify-center hover:border-[#62721A]/50 transition-all"
+                className="flex-shrink-0 w-12 h-12 flex flex-col items-center justify-center hover:opacity-70 transition-opacity"
               >
                 <img src={chain.logo} alt={chain.name} className="w-8 h-8 mb-2 object-contain" />
                 <div className="text-[10px] text-cyan-400 uppercase tracking-wider mt-2">{chain.name}</div>
