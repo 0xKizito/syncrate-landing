@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from ‘react’;
-import { ArrowRight, Twitter, Linkedin, FileText, Menu, X, ArrowUpRight, MessageCircle, Send } from ‘lucide-react’;
+import React, { useState, useEffect } from 'react';
+import { ArrowRight, Twitter, Linkedin, FileText, Menu, X, ArrowUpRight, MessageCircle, Send } from 'lucide-react';
 
 const SyncrateLanding = () => {
 const [scrolled, setScrolled] = useState(false);
@@ -9,17 +9,16 @@ useEffect(() => {
 const handleScroll = () => {
 setScrolled(window.scrollY > 20);
 };
-window.addEventListener(‘scroll’, handleScroll);
-return () => window.removeEventListener(‘scroll’, handleScroll);
+window.addEventListener('scroll', handleScroll);
+return () => window.removeEventListener('scroll', handleScroll);
 }, []);
 
 return (
 <div className="bg-black text-white min-h-screen relative overflow-x-hidden">
 <style>{`
-@import url(‘https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap’);
-* { font-family: ‘Space Grotesk’, sans-serif !important; }
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+* { font-family: 'Space Grotesk', sans-serif !important; }
 
-```
     @keyframes fadeInUp {
       from { opacity: 0; transform: translateY(30px); }
       to { opacity: 1; transform: translateY(0); }
@@ -354,8 +353,6 @@ return (
     </div>
   </footer>
 </div>
-```
-
 );
 };
 
