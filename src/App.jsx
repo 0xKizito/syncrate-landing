@@ -88,8 +88,8 @@ return (
           <a href="#positioning" className="block text-slate-400 hover:text-white">Positioning</a>
           <a href="#workflow" className="block text-slate-400 hover:text-white">Workflow</a>
           <a href="#articles" className="block text-slate-400 hover:text-white">Insights</a>
-          <a href="https://testnet.syncrate.org" target="_blank" rel="noopener noreferrer" className="block w-full px-5 py-2 border border-white/20 hover:border-[#C1E328] hover:text-[#C1E328] transition-all text-center">
-            Join Testnet
+          <a href="mailto:contact@syncrate.org" target="_blank" rel="noopener noreferrer" className="block w-full px-5 py-2 border border-white/20 hover:border-[#C1E328] hover:text-[#C1E328] transition-all text-center">
+            Partner with Syncrate
           </a>
         </div>
       </div>
@@ -113,8 +113,8 @@ return (
           Syncrate enables compliant, on-chain settlement for tokenized real-world assets.
         </p>
 
-        <a href="https://tally.so/r/Nplpe0" target="_blank" rel="noopener noreferrer" className="group mt-4 md:mt-8 px-5 md:px-6 py-2.5 md:py-3 border border-white/20 text-xs md:text-sm hover:border-[#C1E328] hover:text-[#C1E328] transition-all uppercase inline-flex items-center space-x-2 tracking-wider">
-          <span>Apply for Access</span>
+        <a href="https://testnet.syncrate.org" target="_blank" rel="noopener noreferrer" className="group mt-4 md:mt-8 px-5 md:px-6 py-2.5 md:py-3 border border-white/20 text-xs md:text-sm hover:border-[#C1E328] hover:text-[#C1E328] transition-all uppercase inline-flex items-center space-x-2 tracking-wider">
+          <span>Join Testnet</span>
           <ArrowRight className="w-3 md:w-4 h-3 md:h-4" />
         </a>
       </div>
