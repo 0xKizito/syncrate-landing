@@ -135,14 +135,14 @@ return (
               { name: 'BSC', logo: 'https://cryptologos.cc/logos/bnb-bnb-logo.png' },
               { name: 'Solana', logo: 'https://cryptologos.cc/logos/solana-sol-logo.png' },
               // Duplicate set for seamless loop
-              { name: 'Ethereum', logo: 'https://cryptologos.cc/logos/ethereum-eth-logo.svg' },
-              { name: 'Arbitrum', logo: 'https://cryptologos.cc/logos/arbitrum-arb-logo.svg' },
-              { name: 'Polygon', logo: 'https://cryptologos.cc/logos/polygon-matic-logo.svg' },
+              { name: 'Ethereum', logo: 'https://cryptologos.cc/logos/ethereum-eth-logo.png' },
+              { name: 'Arbitrum', logo: 'https://cryptologos.cc/logos/arbitrum-arb-logo.png' },
+              { name: 'Polygon', logo: 'https://cryptologos.cc/logos/polygon-matic-logo.png' },
               { name: 'Base', logo: 'https://avatars.githubusercontent.com/u/108554348' },
-              { name: 'Optimism', logo: 'https://cryptologos.cc/logos/optimism-ethereum-op-logo.svg' },
-              { name: 'Avalanche', logo: 'https://cryptologos.cc/logos/avalanche-avax-logo.svg' },
-              { name: 'BSC', logo: 'https://cryptologos.cc/logos/bnb-bnb-logo.svg' },
-              { name: 'Solana', logo: 'https://cryptologos.cc/logos/solana-sol-logo.svg' }
+              { name: 'Optimism', logo: 'https://cryptologos.cc/logos/optimism-ethereum-op-logo.png' },
+              { name: 'Avalanche', logo: 'https://cryptologos.cc/logos/avalanche-avax-logo.png' },
+              { name: 'BSC', logo: 'https://cryptologos.cc/logos/bnb-bnb-logo.png' },
+              { name: 'Solana', logo: 'https://cryptologos.cc/logos/solana-sol-logo.png' }
             ].map((chain, index) => (
               <div
                 key={index}
