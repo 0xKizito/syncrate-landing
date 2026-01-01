@@ -210,28 +210,24 @@ return (
           {
             num: '01',
             title: 'Intent & Identity Layer',
-            subtitle: 'The Entry',
             desc: 'User specifies a source RWA (e.g., OpenEden TBILL) and a target RWA (e.g., Backed bAAPL). Instead of fragmented onboarding, Syncrate integrates an identity hub (e.g., Quadrata, Civic). It maps the user\'s existing credentials to the target issuer\'s allowlist requirements before the transaction even begins.',
             icon: '🆔'
           },
           {
             num: '02',
             title: 'The Canonical Exit',
-            subtitle: 'Liquidity Injection',
             desc: 'Syncrate triggers the "Primary Redemption" of the source asset rather than selling into thin secondary markets.',
             icon: '📤'
           },
           {
             num: '03',
             title: 'Stable Settlement & Cross-Chain Bridging',
-            subtitle: '',
             desc: 'All trades settle into permissionless USDC to avoid the risks of synthetic or wrapped assets. If the target RWA is on a different chain (e.g., moving from Ethereum to Base or Polygon), Syncrate utilizes Circle CCTP or Chainlink CCIP.',
             icon: '⚖️'
           },
           {
             num: '04',
             title: 'The Canonical Entry',
-            subtitle: 'Issuance',
             desc: 'Once USDC arrives on the target chain, Syncrate calls the mint() or requestIssuance() function for the target RWA.',
             icon: '📥'
           }
