@@ -96,7 +96,7 @@ return (
     )}
   </nav>
 
-  <section className="relative py-12 md:py-20 lg:py-32 flex flex-col items-center justify-start">
+  <section className="relative py-6 md:py-12 lg:py-24 flex flex-col items-center justify-start">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-20">
       <div className="animate-fade-in-up">
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold mb-6 md:mb-8 leading-[0.95] tracking-tight">
@@ -157,7 +157,7 @@ return (
     </div>
   </section>
 
-  <section id="positioning" className="relative py-12 md:py-20 lg:py-32 border-t border-white/5">
+  <section id="positioning" className="relative py-6 md:py-12 lg:py-24 border-t border-white/5">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32">
       <div className="grid lg:grid-cols-2 gap-16 items-center">
         <div className="animate-fade-in-up">
@@ -201,7 +201,7 @@ return (
     </div>
   </section>
 
-  <section id="workflow" className="relative py-12 md:py-20 lg:py-32 border-t border-white/5">
+  <section id="workflow" className="relative py-6 md:py-12 lg:py-24 border-t border-white/5">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32">
       <h2 className="text-4xl lg:text-5xl font-bold mb-20">The Syncrate Workflow.</h2>
 
@@ -256,7 +256,7 @@ return (
     </div>
   </section>
 
-  <section id="articles" className="relative py-12 md:py-20 lg:py-32 border-t border-white/5">
+  <section id="articles" className="relative py-6 md:py-12 lg:py-24 border-t border-white/5">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-32">
       <h2 className="text-4xl lg:text-5xl font-bold mb-20">Articles & Insights.</h2>
       
@@ -305,18 +305,18 @@ return (
         <div>
           <h4 className="text-xs uppercase mb-4 text-slate-400 tracking-wider">Ecosystem</h4>
           <ul className="space-y-3 text-xs">
-            <li><a href="#" className="text-slate-600 hover:text-[#C1E328] transition-colors">Brand Kit</a></li>
-            <li><a href="#" className="text-slate-600 hover:text-[#C1E328] transition-colors">Careers</a></li>
-            <li><a href="#" className="text-slate-600 hover:text-[#C1E328] transition-colors">Developers</a></li>
+            <li><a href="https://syncrate.org/brand-kit" className="text-slate-600 hover:text-[#C1E328] transition-colors">Brand Kit</a></li>
+            <li><a href="https://syncrate.org/careers" className="text-slate-600 hover:text-[#C1E328] transition-colors">Careers</a></li>
+            <li><a href="https://docs.syncrate.org" className="text-slate-600 hover:text-[#C1E328] transition-colors">Developers</a></li>
           </ul>
         </div>
 
         <div>
           <h4 className="text-xs uppercase mb-4 text-slate-400 tracking-wider">Resources</h4>
           <ul className="space-y-3 text-xs">
-            <li><a href="#" className="text-slate-600 hover:text-[#C1E328] transition-colors">Privacy Policy</a></li>
-            <li><a href="#" className="text-slate-600 hover:text-[#C1E328] transition-colors">Terms Of Use</a></li>
-            <li><a href="#" className="text-slate-600 hover:text-[#C1E328] transition-colors">KYC / AML Policy</a></li>
+            <li><a href="https://syncrate.org/privacy-policy" className="text-slate-600 hover:text-[#C1E328] transition-colors">Privacy Policy</a></li>
+            <li><a href="https://syncrate.org/terms-of-use" className="text-slate-600 hover:text-[#C1E328] transition-colors">Terms Of Use</a></li>
+            <li><a href="https://syncrate.org/kyc-policy" className="text-slate-600 hover:text-[#C1E328] transition-colors">KYC / AML Policy</a></li>
           </ul>
         </div>
 
