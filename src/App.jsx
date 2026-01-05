@@ -314,7 +314,7 @@ return (
         <div>
           <h4 className="text-xs uppercase mb-4 text-slate-400 tracking-wider">Resources</h4>
           <ul className="space-y-3 text-xs">
-            <li><a href="privacy.syncrate.org" className="text-slate-600 hover:text-[#C1E328] transition-colors">Privacy Policy</a></li>
+            <li><a href="https://privacy.syncrate.org" className="text-slate-600 hover:text-[#C1E328] transition-colors">Privacy Policy</a></li>
             <li><a href="https://syncrate.org/terms-of-use" className="text-slate-600 hover:text-[#C1E328] transition-colors">Terms Of Use</a></li>
             <li><a href="https://syncrate.org/kyc-policy" className="text-slate-600 hover:text-[#C1E328] transition-colors">KYC / AML Policy</a></li>
           </ul>
