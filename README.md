@@ -1,1 +1,1 @@
-# syncrate-landing
+# Syncrate-Landing-Page
