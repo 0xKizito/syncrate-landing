@@ -99,7 +99,7 @@ return (
   <section className="relative py-6 md:py-12 lg:py-24 flex flex-col items-center justify-start">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-20">
       <div className="animate-fade-in-up">
-        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 md:mb-8 leading-[0.95] tracking-tight max-w-2xl">
+        <h1 className="text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 md:mb-8 leading-[0.95] tracking-tight max-w-1xl">
           Interoperability
           <br />
           for the
