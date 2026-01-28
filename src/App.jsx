@@ -16,8 +16,8 @@ return () => window.removeEventListener('scroll', handleScroll);
 return (
 <div className="bg-black text-white min-h-screen relative overflow-x-hidden">
 <style>{`
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-* { font-family: 'Space Grotesk', sans-serif !important; }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+* { font-family: 'Montserrat', sans-serif !important; }
 
     @keyframes fadeInUp {
       from { opacity: 0; transform: translateY(30px); }
@@ -99,7 +99,7 @@ return (
   <section className="relative py-6 md:py-12 lg:py-24 flex flex-col items-center justify-start">
     <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12 py-20">
       <div className="animate-fade-in-up">
-        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold mb-6 md:mb-8 leading-[0.95] tracking-tight max-w-2xl">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 md:mb-8 leading-[0.95] tracking-tight max-w-2xl">
           Interoperability
           <br />
           for the
